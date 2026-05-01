@@ -1137,7 +1137,7 @@ body {
     /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.09); */
     transition: 0.4s ease;
     max-width: 300px;
-    max-height: 300px;
+    max-height: 600px;
 }
 
 .solution-card:hover {
