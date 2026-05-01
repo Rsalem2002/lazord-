@@ -49,6 +49,7 @@ function showElements() {
 window.addEventListener("load", showElements);
 window.addEventListener("scroll", showElements);
 window.addEventListener("load", () => {
+ const textElements = document.querySelectorAll(".text-reveal,.reveal");
     textElements.forEach((element) => {
         const elementTop = element.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
