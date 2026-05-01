@@ -1126,7 +1126,7 @@ body {
 .solutions-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
+    gap: 40px;
 }
 
 .solution-card {
@@ -1164,6 +1164,17 @@ body {
     line-height: 1.8;
     font-weight: 700;
     font-size: 20px;
+}
+@media (max-width: 900px) {
+  .solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .solutions-grid {
+    grid-template-columns: 1fr;
+  }
 }
 /*pricing*/
 .pricing-section {
