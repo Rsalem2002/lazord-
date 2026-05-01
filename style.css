@@ -298,7 +298,8 @@ body {
     text-align: center;
     line-height: 1.8;
     margin-bottom: 28px;
-    font-weight: 600;
+    font-weight: 400;
+    font-size:15px;
 }
 
 .solution-card ul {
@@ -309,7 +310,7 @@ body {
 
 .solution-card li {
     margin-bottom: 12px;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .solution-card li::before {
